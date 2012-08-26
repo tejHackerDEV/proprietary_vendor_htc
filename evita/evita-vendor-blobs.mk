@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evita/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/evita/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
   vendor/htc/evita/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
-  vendor/htc/evita/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
   vendor/htc/evita/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/evita/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/htc/evita/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
