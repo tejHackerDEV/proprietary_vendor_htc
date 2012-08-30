@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-	vendor/htc/evita/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so
+	vendor/htc/evita/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
+	vendor/htc/evita/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
 
 PRODUCT_COPY_FILES += \
   vendor/htc/evita/proprietary/etc/agps_rm:system/etc/agps_rm \
@@ -42,7 +43,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evita/proprietary/lib/libchromatix_s5k6a1gx_default_video.so:system/lib/libchromatix_s5k6a1gx_default_video.so \
   vendor/htc/evita/proprietary/lib/libchromatix_s5k6a1gx_preview.so:system/lib/libchromatix_s5k6a1gx_preview.so \
   vendor/htc/evita/proprietary/lib/libchromatix_s5k6a1gx_zsl.so:system/lib/libchromatix_s5k6a1gx_zsl.so \
-  vendor/htc/evita/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
   vendor/htc/evita/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/evita/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/evita/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
