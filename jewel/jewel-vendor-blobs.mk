@@ -17,6 +17,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
 	vendor/htc/jewel/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
+	vendor/htc/jewel/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
 	vendor/htc/jewel/proprietary/lib/libril.so:obj/lib/libril.so
 
 PRODUCT_COPY_FILES += \
@@ -46,7 +47,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libchromatix_s5k6a1gx_default_video.so:system/lib/libchromatix_s5k6a1gx_default_video.so \
   vendor/htc/jewel/proprietary/lib/libchromatix_s5k6a1gx_preview.so:system/lib/libchromatix_s5k6a1gx_preview.so \
   vendor/htc/jewel/proprietary/lib/libchromatix_s5k6a1gx_zsl.so:system/lib/libchromatix_s5k6a1gx_zsl.so \
-  vendor/htc/jewel/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
   vendor/htc/jewel/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/jewel/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/jewel/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \

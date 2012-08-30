@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-	vendor/htc/ville/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so
+	vendor/htc/ville/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
+	vendor/htc/ville/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
 
 PRODUCT_COPY_FILES += \
   vendor/htc/ville/proprietary/etc/agps_rm:system/etc/agps_rm \
@@ -40,7 +41,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
   vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_preview.so:system/lib/libchromatix_s5k3h2yx_preview.so \
   vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
-  vendor/htc/ville/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
   vendor/htc/ville/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/ville/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/ville/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
