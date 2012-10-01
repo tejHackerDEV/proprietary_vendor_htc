@@ -91,4 +91,13 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ville/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
   vendor/htc/ville/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/ville/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-  vendor/htc/ville/proprietary/lib/hw/sensors.ville.so:system/lib/hw/sensors.ville.so
+  vendor/htc/ville/proprietary/lib/hw/sensors.ville.so:system/lib/hw/sensors.ville.so \
+  vendor/htc/ville/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+  vendor/htc/ville/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
+  vendor/htc/ville/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+  vendor/htc/ville/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
+  vendor/htc/ville/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
+  vendor/htc/ville/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
+  vendor/htc/ville/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+  vendor/htc/ville/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+  vendor/htc/ville/proprietary/lib/modules/prima_wlan.ko:system/lib/modules/prima_wlan.ko

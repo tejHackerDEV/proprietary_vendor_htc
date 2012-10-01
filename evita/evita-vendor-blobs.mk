@@ -99,4 +99,13 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evita/proprietary/lib/libimu.so:system/lib/libimu.so \
   vendor/htc/evita/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/evita/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
-  vendor/htc/evita/proprietary/lib/libmpl.so:system/lib/libmpl.so
+  vendor/htc/evita/proprietary/lib/libmpl.so:system/lib/libmpl.so \
+  vendor/htc/evita/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+  vendor/htc/evita/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
+  vendor/htc/evita/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+  vendor/htc/evita/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
+  vendor/htc/evita/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
+  vendor/htc/evita/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
+  vendor/htc/evita/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+  vendor/htc/evita/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+  vendor/htc/evita/proprietary/lib/modules/prima_wlan.ko:system/lib/modules/prima_wlan.ko
