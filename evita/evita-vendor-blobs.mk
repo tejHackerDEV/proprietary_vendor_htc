@@ -107,5 +107,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evita/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
   vendor/htc/evita/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
   vendor/htc/evita/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-  vendor/htc/evita/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-  vendor/htc/evita/proprietary/lib/modules/prima_wlan.ko:system/lib/modules/prima_wlan.ko
+  vendor/htc/evita/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt
