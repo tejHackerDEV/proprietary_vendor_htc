@@ -16,11 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/ville/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
-    vendor/htc/ville/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-    vendor/htc/ville/proprietary/lib/libqmi_cci.so:obj/lib/libqmi_cci.so \
-    vendor/htc/ville/proprietary/lib/libqmi_common_so.so:obj/lib/libqmi_common_so.so \
-    vendor/htc/ville/proprietary/lib/libqmi_csi.so:obj/lib/libqmi_csi.so
+	vendor/htc/ville/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
+	vendor/htc/ville/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
 
 PRODUCT_COPY_FILES += \
   vendor/htc/ville/proprietary/etc/agps_rm:system/etc/agps_rm \
@@ -67,6 +64,11 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ville/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/ville/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/ville/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+  vendor/htc/ville/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+  vendor/htc/ville/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+  vendor/htc/ville/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+  vendor/htc/ville/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+  vendor/htc/ville/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
   vendor/htc/ville/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
   vendor/htc/ville/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/ville/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
