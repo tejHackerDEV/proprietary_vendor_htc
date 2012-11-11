@@ -65,10 +65,12 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ville/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/ville/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/ville/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+  vendor/htc/ville/proprietary/lib/libgps.so:system/lib/libgps.so \
   vendor/htc/ville/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
   vendor/htc/ville/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
   vendor/htc/ville/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
   vendor/htc/ville/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+  vendor/htc/ville/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
   vendor/htc/ville/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
   vendor/htc/ville/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/ville/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
