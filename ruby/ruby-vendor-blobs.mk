@@ -18,7 +18,8 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/ruby/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-    vendor/htc/ruby/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/htc/ruby/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/htc/ruby/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/etc/agps_rm:system/etc/agps_rm \
@@ -98,4 +99,5 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/ruby/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/ruby/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-  vendor/htc/ruby/proprietary/lib/libmpl.so:system/lib/libmpl.so
+  vendor/htc/ruby/proprietary/lib/libmpl.so:system/lib/libmpl.so \
+  vendor/htc/ruby/proprietary/lib/libv8.so:system/lib/libv8.so
