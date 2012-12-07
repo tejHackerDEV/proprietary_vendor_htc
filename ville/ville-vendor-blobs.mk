@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ville/proprietary/bin/cand:system/bin/cand \
   vendor/htc/ville/proprietary/bin/charging:system/bin/charging \
   vendor/htc/ville/proprietary/bin/ewtzmud:system/bin/ewtzmud \
-  vendor/htc/ville/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
   vendor/htc/ville/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
   vendor/htc/ville/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/ville/proprietary/bin/netmgrd:system/bin/netmgrd \
