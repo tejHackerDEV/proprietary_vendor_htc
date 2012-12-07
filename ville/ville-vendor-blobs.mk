@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ville/proprietary/bin/cand:system/bin/cand \
   vendor/htc/ville/proprietary/bin/charging:system/bin/charging \
   vendor/htc/ville/proprietary/bin/ewtzmud:system/bin/ewtzmud \
-  vendor/htc/ville/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
   vendor/htc/ville/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
   vendor/htc/ville/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/ville/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -59,18 +58,20 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ville/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/ville/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/htc/ville/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+  vendor/htc/ville/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+  vendor/htc/ville/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
   vendor/htc/ville/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/ville/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
   vendor/htc/ville/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+  vendor/htc/ville/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
   vendor/htc/ville/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/ville/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-  vendor/htc/ville/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-  vendor/htc/ville/proprietary/lib/libgps.so:system/lib/libgps.so \
-  vendor/htc/ville/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-  vendor/htc/ville/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-  vendor/htc/ville/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-  vendor/htc/ville/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-  vendor/htc/ville/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
+  vendor/htc/ville/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+  vendor/htc/ville/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+  vendor/htc/ville/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+  vendor/htc/ville/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+  vendor/htc/ville/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+  vendor/htc/ville/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
   vendor/htc/ville/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
   vendor/htc/ville/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/ville/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
