@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evita/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/evita/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/evita/proprietary/bin/charging:system/bin/charging \
-  vendor/htc/evita/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
   vendor/htc/evita/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
   vendor/htc/evita/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/evita/proprietary/bin/netmgrd:system/bin/netmgrd \
