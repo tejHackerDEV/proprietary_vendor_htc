@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/jewel/proprietary/bin/bma150_usr:system/bin/bma150_usr \
   vendor/htc/jewel/proprietary/bin/charging:system/bin/charging \
-  vendor/htc/jewel/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
   vendor/htc/jewel/proprietary/bin/hdmid:system/bin/hdmid \
   vendor/htc/jewel/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
   vendor/htc/jewel/proprietary/bin/mpdecision:system/bin/mpdecision \
@@ -39,7 +38,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/jewel/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/htc/jewel/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-  vendor/htc/jewel/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+  vendor/htc/jewel/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+  vendor/htc/jewel/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
   vendor/htc/jewel/proprietary/lib/hw/nfc.jet.so:system/lib/hw/nfc.jet.so \
   vendor/htc/jewel/proprietary/lib/hw/sensors.jet.so:system/lib/hw/sensors.jet.so \
   vendor/htc/jewel/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -72,14 +72,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
   vendor/htc/jewel/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/jewel/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+  vendor/htc/jewel/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
   vendor/htc/jewel/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/jewel/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-  vendor/htc/jewel/proprietary/lib/libgps.so:system/lib/libgps.so \
-  vendor/htc/jewel/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-  vendor/htc/jewel/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-  vendor/htc/jewel/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-  vendor/htc/jewel/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-  vendor/htc/jewel/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
   vendor/htc/jewel/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/jewel/proprietary/lib/libwvm.so:system/lib/libwvm.so \
   vendor/htc/jewel/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
@@ -87,6 +82,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/jewel/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
   vendor/htc/jewel/proprietary/lib/libidl.so:system/lib/libidl.so \
+  vendor/htc/jewel/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
   vendor/htc/jewel/proprietary/lib/libqdi.so:system/lib/libqdi.so \
   vendor/htc/jewel/proprietary/lib/libqdp.so:system/lib/libqdp.so \
   vendor/htc/jewel/proprietary/lib/libqmi.so:system/lib/libqmi.so \
@@ -149,3 +145,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
   vendor/htc/jewel/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
   vendor/htc/jewel/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+  vendor/htc/jewel/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+  vendor/htc/jewel/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+  vendor/htc/jewel/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+  vendor/htc/jewel/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+  vendor/htc/jewel/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+  vendor/htc/jewel/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw
