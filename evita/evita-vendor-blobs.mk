@@ -65,13 +65,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evita/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/evita/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/evita/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-  vendor/htc/evita/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-  vendor/htc/evita/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-  vendor/htc/evita/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-  vendor/htc/evita/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-  vendor/htc/evita/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-  vendor/htc/evita/proprietary/lib/libgps.so:system/lib/libgps.so \
-  vendor/htc/evita/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
   vendor/htc/evita/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
   vendor/htc/evita/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/evita/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
