@@ -40,8 +40,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
   vendor/htc/jewel/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
   vendor/htc/jewel/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
-  vendor/htc/jewel/proprietary/lib/hw/nfc.jet.so:system/lib/hw/nfc.jet.so \
-  vendor/htc/jewel/proprietary/lib/hw/sensors.jet.so:system/lib/hw/sensors.jet.so \
+  vendor/htc/jewel/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
+  vendor/htc/jewel/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
   vendor/htc/jewel/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/jewel/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/jewel/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
