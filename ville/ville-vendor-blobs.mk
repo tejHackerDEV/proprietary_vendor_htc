@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/htc/ville/proprietary/bin/akmd:system/bin/akmd \
+	vendor/htc/ville/proprietary/bin/cand:system/bin/cand \
 	vendor/htc/ville/proprietary/bin/ewtzmud:system/bin/ewtzmud \
 	vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
 	vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_hdr.so:system/lib/libchromatix_s5k3h2yx_hdr.so \
@@ -24,7 +25,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
 	vendor/htc/ville/proprietary/lib/hw/sensors.ville.so:system/lib/hw/sensors.ville.so \
 	vendor/htc/ville/proprietary/etc/agps_rm:system/etc/agps_rm \
-	vendor/htc/ville/proprietary/bin/cand:system/bin/cand \
 	vendor/htc/ville/proprietary/bin/charging:system/bin/charging \
 	vendor/htc/ville/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/htc/ville/proprietary/bin/mpdecision:system/bin/mpdecision \

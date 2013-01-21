@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/jewel/proprietary/lib/libmpl.so:system/lib/libmpl.so \
 	vendor/htc/jewel/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
 	vendor/htc/jewel/proprietary/etc/agps_rm:system/etc/agps_rm \
-	vendor/htc/jewel/proprietary/bin/cand:system/bin/cand \
 	vendor/htc/jewel/proprietary/bin/charging:system/bin/charging \
 	vendor/htc/jewel/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/htc/jewel/proprietary/bin/mpdecision:system/bin/mpdecision \

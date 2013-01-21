@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
 	vendor/htc/evita/proprietary/bin/akmd:system/bin/akmd \
+	vendor/htc/evita/proprietary/bin/cand:system/bin/cand \
 	vendor/htc/evita/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/htc/evita/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
 	vendor/htc/evita/proprietary/lib/libchromatix_s5k3h2yx_hdr.so:system/lib/libchromatix_s5k3h2yx_hdr.so \
@@ -37,7 +38,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/evita/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so \
 	vendor/htc/evita/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
 	vendor/htc/evita/proprietary/etc/agps_rm:system/etc/agps_rm \
-	vendor/htc/evita/proprietary/bin/cand:system/bin/cand \
 	vendor/htc/evita/proprietary/bin/charging:system/bin/charging \
 	vendor/htc/evita/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/htc/evita/proprietary/bin/mpdecision:system/bin/mpdecision \
