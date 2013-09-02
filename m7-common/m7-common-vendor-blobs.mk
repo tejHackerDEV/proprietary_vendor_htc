@@ -213,3 +213,9 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_apsta_b0.bin:/system/etc/firmware/fw_bcm4335_apsta_b0.bin \
         vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_b0.bin:/system/etc/firmware/fw_bcm4335_b0.bin \
         vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_p2p_b0.bin:/system/etc/firmware/fw_bcm4335_p2p_b0.bin
+
+# HTC IR Blaster resources
+PRODUCT_PACKAGES += \
+        CIRModule \
+        htcirlibs \
+        libhtcirinterface_jni
