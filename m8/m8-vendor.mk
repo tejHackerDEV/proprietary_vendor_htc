@@ -16,7 +16,6 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    EasyAccessService \
     libtime_genoff
 
 $(call inherit-product, vendor/htc/m8/m8-vendor-blobs.mk)
