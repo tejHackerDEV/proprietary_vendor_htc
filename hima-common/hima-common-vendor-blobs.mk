@@ -219,6 +219,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/htc/hima-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/htc/hima-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+    vendor/htc/hima-common/proprietary/lib/libscaler.so:system/lib/libscaler.so \
     vendor/htc/hima-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/htc/hima-common/proprietary/lib64/hw/sensors.msm8994.so:system/lib64/hw/sensors.msm8994.so \
     vendor/htc/hima-common/proprietary/lib64/libHtcVteEngine.so:system/lib64/libHtcVteEngine.so \
