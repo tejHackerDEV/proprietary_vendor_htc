@@ -16,13 +16,9 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    HTC_CIR \
-    EasyAccessService \
     TimeService \
-    libmdmdetect \
-    libTimeService \
+    libril \
     libtime_genoff \
-    libFlacSwDec \
-    libthermalclient
+    libTimeService
 
 $(call inherit-product, vendor/htc/hima-common/hima-common-vendor-blobs.mk)
