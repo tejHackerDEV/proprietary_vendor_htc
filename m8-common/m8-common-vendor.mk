@@ -16,8 +16,8 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    libtime_genoff \
     CIRModule \
-    htcirlibs
+    htcirlibs \
+    libtime_genoff
 
 $(call inherit-product, vendor/htc/m8-common/m8-common-vendor-blobs.mk)
