@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/htc/hima-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/htc/hima-common/proprietary/bin/radish:system/bin/radish \
+    vendor/htc/hima-common/proprietary/bin/rild:system/bin/rild \
     vendor/htc/hima-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/htc/hima-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/hima-common/proprietary/bin/time_daemon:system/bin/time_daemon \
