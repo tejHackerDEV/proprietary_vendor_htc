@@ -1,5 +1,4 @@
-# Copyright (C) 2015-2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -152,65 +151,28 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/etc/tfa/voip_l.eq:system/etc/tfa/voip_l.eq \
     vendor/htc/hima-common/proprietary/etc/tfa/voip_l.preset:system/etc/tfa/voip_l.preset \
     vendor/htc/hima-common/proprietary/etc/tfa/voip.preset:system/etc/tfa/voip.preset \
-    vendor/htc/hima-common/proprietary/lib64/egl/eglSubDriverAndroid.so:system/lib64/egl/eglSubDriverAndroid.so \
-    vendor/htc/hima-common/proprietary/lib64/egl/libEGL_adreno.so:system/lib64/egl/libEGL_adreno.so \
-    vendor/htc/hima-common/proprietary/lib64/egl/libGLESv1_CM_adreno.so:system/lib64/egl/libGLESv1_CM_adreno.so \
-    vendor/htc/hima-common/proprietary/lib64/egl/libGLESv2_adreno.so:system/lib64/egl/libGLESv2_adreno.so \
-    vendor/htc/hima-common/proprietary/lib64/egl/libq3dtools_adreno.so:system/lib64/egl/libq3dtools_adreno.so \
     vendor/htc/hima-common/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/htc/hima-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/htc/hima-common/proprietary/lib64/hw/sensors.msm8994.so:system/lib64/hw/sensors.msm8994.so \
-    vendor/htc/hima-common/proprietary/lib64/hw/vulkan.msm8994.so:system/lib64/hw/vulkan.msm8994.so \
-    vendor/htc/hima-common/proprietary/lib64/libadreno_utils.so:system/lib64/libadreno_utils.so \
-    vendor/htc/hima-common/proprietary/lib64/libbccQTI.so:system/lib64/libbccQTI.so \
-    vendor/htc/hima-common/proprietary/lib64/libC2D2.so:system/lib64/libC2D2.so \
-    vendor/htc/hima-common/proprietary/lib64/libc2d30-a4xx.so:system/lib64/libc2d30-a4xx.so \
-    vendor/htc/hima-common/proprietary/lib64/libCB.so:system/lib64/libCB.so \
     vendor/htc/hima-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/htc/hima-common/proprietary/lib64/libgsl.so:system/lib64/libgsl.so \
     vendor/htc/hima-common/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
-    vendor/htc/hima-common/proprietary/lib64/libllvm-glnext.so:system/lib64/libllvm-glnext.so \
-    vendor/htc/hima-common/proprietary/lib64/libllvm-qcom.so:system/lib64/libllvm-qcom.so \
-    vendor/htc/hima-common/proprietary/lib64/libllvm-qgl.so:system/lib64/libllvm-qgl.so \
     vendor/htc/hima-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/htc/hima-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/htc/hima-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/htc/hima-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/htc/hima-common/proprietary/lib64/libmm-disp-apis.so:system/lib64/libmm-disp-apis.so \
-    vendor/htc/hima-common/proprietary/lib64/libmm-qdcm.so:system/lib64/libmm-qdcm.so \
-    vendor/htc/hima-common/proprietary/lib64/librs_adreno_sha1.so:system/lib64/librs_adreno_sha1.so \
-    vendor/htc/hima-common/proprietary/lib64/librs_adreno.so:system/lib64/librs_adreno.so \
-    vendor/htc/hima-common/proprietary/lib64/libRSDriver_adreno.so:system/lib64/libRSDriver_adreno.so \
-    vendor/htc/hima-common/proprietary/lib64/libscale.so:system/lib64/libscale.so \
-    vendor/htc/hima-common/proprietary/lib64/libuiblur.so:system/lib64/libuiblur.so \
-    vendor/htc/hima-common/proprietary/lib/egl/eglSubDriverAndroid.so:system/lib/egl/eglSubDriverAndroid.so \
-    vendor/htc/hima-common/proprietary/lib/egl/libEGL_adreno.so:system/lib/egl/libEGL_adreno.so \
-    vendor/htc/hima-common/proprietary/lib/egl/libGLESv1_CM_adreno.so:system/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/htc/hima-common/proprietary/lib/egl/libGLESv2_adreno.so:system/lib/egl/libGLESv2_adreno.so \
-    vendor/htc/hima-common/proprietary/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
     vendor/htc/hima-common/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
     vendor/htc/hima-common/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/htc/hima-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/htc/hima-common/proprietary/lib/hw/vulkan.msm8994.so:system/lib/hw/vulkan.msm8994.so \
-    vendor/htc/hima-common/proprietary/lib/libadreno_utils.so:system/lib/libadreno_utils.so \
     vendor/htc/hima-common/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
-    vendor/htc/hima-common/proprietary/lib/libbccQTI.so:system/lib/libbccQTI.so \
     vendor/htc/hima-common/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
-    vendor/htc/hima-common/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/htc/hima-common/proprietary/lib/libc2d30-a4xx.so:system/lib/libc2d30-a4xx.so \
     vendor/htc/hima-common/proprietary/lib/libc2dcolorconvertgpu.so:system/lib/libc2dcolorconvertgpu.so \
     vendor/htc/hima-common/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/hima-common/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
-    vendor/htc/hima-common/proprietary/lib/libCB.so:system/lib/libCB.so \
     vendor/htc/hima-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/htc/hima-common/proprietary/lib/libFaceRetrieve.so:system/lib/libFaceRetrieve.so \
     vendor/htc/hima-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/htc/hima-common/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/htc/hima-common/proprietary/lib/libhtcsecure.so:system/lib/libhtcsecure.so \
     vendor/htc/hima-common/proprietary/lib/libHtcVteEngine.so:system/lib/libHtcVteEngine.so \
-    vendor/htc/hima-common/proprietary/lib/libllvm-glnext.so:system/lib/libllvm-glnext.so \
-    vendor/htc/hima-common/proprietary/lib/libllvm-qcom.so:system/lib/libllvm-qcom.so \
-    vendor/htc/hima-common/proprietary/lib/libllvm-qgl.so:system/lib/libllvm-qgl.so \
     vendor/htc/hima-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/htc/hima-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/htc/hima-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -219,11 +181,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/htc/hima-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/htc/hima-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/htc/hima-common/proprietary/lib/librs_adreno_sha1.so:system/lib/librs_adreno_sha1.so \
-    vendor/htc/hima-common/proprietary/lib/librs_adreno.so:system/lib/librs_adreno.so \
-    vendor/htc/hima-common/proprietary/lib/libRSDriver_adreno.so:system/lib/libRSDriver_adreno.so \
     vendor/htc/hima-common/proprietary/lib/libscaler.so:system/lib/libscaler.so \
-    vendor/htc/hima-common/proprietary/lib/libscale.so:system/lib/libscale.so \
     vendor/htc/hima-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/htc/hima-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
@@ -798,3 +756,5 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libTimeService \
     TimeService
+
+$(call inherit-product, vendor/qcom/binaries/msm8994/graphics/graphics-vendor.mk)
