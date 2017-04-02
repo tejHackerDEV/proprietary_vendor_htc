@@ -54,4 +54,27 @@ LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libhtcirinterface_jni
+LOCAL_MODULE_OWNER := htc
+LOCAL_SRC_FILES_64 := proprietary/lib64/libhtcirinterface_jni.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libhtcirinterface_jni.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := HTC_CIR
+LOCAL_MODULE_OWNER := htc
+LOCAL_SRC_FILES := proprietary/app/HTC_CIR/HTC_CIR.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
 endif
