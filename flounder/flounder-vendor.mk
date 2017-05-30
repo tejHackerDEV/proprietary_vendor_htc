@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 # Copyright (C) 2015 The Pure Nexus Project
 # Copyright (C) 2016-2017 SlimRoms Project
 #
@@ -18,3 +19,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/htc/flounder/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so
+
+PRODUCT_PACKAGES += \
+    HotwordEnrollment
