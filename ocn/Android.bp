@@ -135,17 +135,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "WfdService",
-	owner: "htc",
-	apk: "proprietary/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "htc",
 	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
@@ -177,11 +166,5 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
-}
-
-dex_import {
-	name: "WfdCommon",
-	owner: "htc",
-	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
